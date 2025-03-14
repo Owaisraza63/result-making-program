@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result making program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <h1>Create Result</h1>
+
+
+    <table border="1px">
+        <tr>
+            <th>Name</th>
+            <th><input id="userName" type="text"></th>
+        </tr>
+        <tr>
+            <th>Roll-Number</th>
+            <th><input id="Roll-Number" type="number"></th>
+        </tr>
+       
+    </table> <br><br>
+
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>English</th>
+                <th><input type="nubmer" id="E-marks"></th>
+            </tr>
+            <tr>
+                <th>Urdu</th>
+                <th><input type="nubmer" id="U-marks"></th>
+            </tr>
+            <tr>
+                <th>Maths</th>
+                <th><input type="nubmer" id="M-marks"></th>
+            </tr>
+            <tr>
+                <th>Islamiat</th>
+                <th><input type="nubmer" id="I-marks"></th>
+            </tr>
+            <tr>
+                <th>computer</th>
+                <th><input type="nubmer" id="C-marks"></th>
+            </tr>
+           
+        </tbody>
+    </table> <br>
+
+    <button id="submit-btn" onclick="createResult()">Create Result</button>
+
+    <br/><br/>
+    <div id="result-container">
+        <table border="1px" >
+            <thead>
+                <tr>
+                    <th>Name </th>
+                    <td id="r-user-name"></td>
+                </tr>
+                <tr>
+                    <th>Roll-Number </th>
+                    <td id="r-roll-num"></td>
+                </tr>
+                <tr>
+                    <th>Total </th>
+                    <th id="total-marks"></th>
+                </tr>
+                <tr>
+                    <th>Precentage</th>
+                    <th id="Precentage"></th>
+                </tr>
+                <tr>
+                    <th>Grade</th>
+                    <th id="grade"></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
