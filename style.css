@@ -5,6 +5,8 @@
     border: none; 
     border-radius: 5px; 
     cursor: pointer;
+    display: block;
+    margin: auto;
 }
 
 #submit-btn:hover{
@@ -25,7 +27,7 @@ table{
 }
 
 
-h1,button{
+h1{
     text-align: center;
-    align-items: center;
 }
+
